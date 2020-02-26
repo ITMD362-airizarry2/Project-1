@@ -1,22 +1,22 @@
 function validateForm() {
-  var x = document.forms["myForm"]["firstname"].value;
-  if (x == "") {
+  var first = document.forms["myForm"]["firstname"].value;
+  if (first == "") {
     alert(" First Name must be filled out");
     return false;
   }
  
-  var x = document.forms["myForm"]["lastname"].value;
-  if (x == "") {
+  var last = document.forms["myForm"]["lastname"].value;
+  if (last == "") {
     alert("Last name must be filled out");
     return false;
   }
-  var x = document.forms["myForm"]["email"].value;
-  if (x == "") {
+  var email = document.forms["myForm"]["email"].value;
+  if (email == "") {
     alert("Email must be filled out");
     return false;
   }
-   var x = document.forms["myForm"]["phone"].value;
-  if (x == "") {
+   var phone = document.forms["myForm"]["phone"].value;
+  if (phone == "") {
     alert("Phone Number must be filled out");
     return false;
   }
