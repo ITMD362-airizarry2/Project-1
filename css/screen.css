@@ -42,12 +42,14 @@ h3 {
 	text-align: center;
 
 }
+
 h1 {
 	font-family:  ocr-a-std, monospace;
 	color: #009933;
 	text-transform: uppercase;
 	text-align: center;
 }
+
 p {
 	color: #669900; 
 	padding-left: 10px;
@@ -97,6 +99,9 @@ input[type=checkbox] {
 }
 
 
+
+
+
 /* Desktop Styling */
 @media only screen and (min-width: 992px) {
 input {
@@ -120,6 +125,7 @@ input[type=reset] {
     height:20px;
   }
   
+
   input[type=submit]:focus {
     width:10%;
   }
