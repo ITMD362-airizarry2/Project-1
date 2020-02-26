@@ -1,38 +1,42 @@
 <!DOCTYPE html>
 <html lang="en" class="nojs">
    <head>
-      <title>Tri Solutions</title
+      <title>
+      Tri Solutions</title
       <meta charset="UTF-8" />
-	  <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
+      <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
       <link rel="stylesheet" media="screen" href="css/reset.css" />
       <link rel="stylesheet" media="screen" href="css/screen.css" />
    </head>
    <body>
-	<h1> Tri Solutions </h1>
-	<h3> Welcome to Tri Solutions, where home and hearth become smart! </h3>
-	<p> We are a smart solutions company that specializes in bringing ease and access to your home. We will work with you to design your perfect 
-	    system, that suits your needs and wants.  We will integrate any smart software and hardware that you desire into your home.  </p>
-	<div id="form">
-      <form method="get" autocomplete="on" action="#">
-	  <label for="firstname"> First Name </label>
-	  <input type="text" id="firstname">
-	  <label for="lastname"> Last Name </label>
-	  <input type="text" id="lastname">
-	  <label for="email"> Email </label>
-	  <input type="text" id="email">
-	  <h4>Would you like to sign up to receive our newsletter?</h4>
-	  <label for="elist"> Sign me Up!</label>
-	  <input type="radio" id="elist">
-	  <h4>Gender</h4>
-	  <select id="gender" name="gender">
-	  <option value="null"></option>
-	  <option value="Male"> Male</option>
-	  <option value="Female"> Female</option>
-	  <option value="na">Prefer not to specify</option>
-	  
-	  <input type="submit" value="Submit">
-      <input type="reset" value="Reset">
-      </form>
-	 </div>
+      <h1> Tri Solutions </h1>
+      <h3> Welcome to Tri Solutions, where home and hearth become smart! </h3>
+      <h4> We are a smart solutions company that specializes in bringing ease and access to your home. We will work with you to design your perfect 
+         system, that suits your needs and wants.  We will integrate any smart software and hardware that you desire into your home.  
+      </h4>
+      <div id="form">
+         <form method="get" autocomplete="on" action="#">
+            <label for="firstname"> First Name </label>
+            <input type="text" id="firstname" placeholder="Enter your first name">
+            <label for="lastname"> Last Name </label>
+            <input type="text" id="lastname"  placeholder="Enter your last name">
+            <label for="email"> Email </label>
+            <input type="text" id="email"  placeholder="Enter your Email address">
+            <h4>Would you like to sign up to receive our newsletter?</h4>
+            <label for="elist"> Sign me Up!</label>
+            <input type="checkbox" id="elist">
+            <div id="gen">
+               <h4>Gender</h4>
+               <select id="gender" name="gender">
+               <option value="Male"> Male</option>
+               <option value="Female"> Female</option>
+               <option value="na" selected >Prefer not to specify</option>
+            </div>
+			<div id="buttons">
+            <input type="submit">
+            <input type="reset" value="Reset">
+			</div>
+         </form>
+      </div>
    </body>
 </html>
