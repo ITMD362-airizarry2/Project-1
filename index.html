@@ -10,10 +10,8 @@
    </head>
    <body>
       <h1> Tri Solutions </h1>
-      <h3> Welcome to Tri Solutions, where home and hearth become smart! </h3>
-      <h4> We are a smart solutions company that specializes in bringing ease and access to your home. We will work with you to design your perfect 
-         system, that suits your needs and wants.  We will integrate any smart software and hardware that you desire into your home.  
-      </h4>
+      <h3> Welcome to Tri Solutions, we specialize in smart home technology </h3>
+	  <h4> Please complete the form below for a quote:  </h4>
       <div id="form">
          <form method="get" autocomplete="on" action="#">
             <label for="firstname"> First Name </label>
@@ -22,16 +20,25 @@
             <input type="text" id="lastname"  placeholder="Enter your last name">
             <label for="email"> Email </label>
             <input type="text" id="email"  placeholder="Enter your Email address">
-            <h4>Would you like to sign up to receive our newsletter?</h4>
+
+			<label for="phone"> Phone Number</label>
+			<input type="tel" id="phone" placeholder="(555) 555-1234"> 
+			<div id="list">
+			<h4>Would you like to sign up to receive our newsletter?</h4>
             <label for="elist"> Sign me Up!</label>
             <input type="checkbox" id="elist">
-            <div id="gen">
-               <h4>Gender</h4>
-               <select id="gender" name="gender">
-               <option value="Male"> Male</option>
-               <option value="Female"> Female</option>
-               <option value="na" selected >Prefer not to specify</option>
-            </div>
+			</div>
+			
+			<div id="cities">
+			<label for="city"> Do you live in Chicago, New York, or Los Angeles? </label>
+			<label for="yes">Yes</label>
+			<input type="radio" id="yes">
+			<label for="no">No</label>
+			<input type="radio" id="no">
+			<div>
+			
+			
+			
 			<div id="buttons">
             <input type="submit">
             <input type="reset" value="Reset">
