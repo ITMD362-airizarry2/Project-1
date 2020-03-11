@@ -109,14 +109,14 @@ input[type=checkbox] {
 
 @media only screen and (min-width: 992px) {
   input {
-  width: 90%;
+  width: 110%;
   padding: 12px 20px;
   margin: 8px 0;
   box-sizing: border-box;
 }
 
 input:focus {
-  width: 100%;
+  width: 140%;
 }
   input[type=submit]:focus {
     width: 50%%;
