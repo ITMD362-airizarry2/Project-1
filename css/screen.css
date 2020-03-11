@@ -66,8 +66,8 @@ input {
   transition: width 0.4s ease-in-out;
 }
 
-input:focus {
-  width: 100%;
+input[type=text]:focus {
+  width: 130%;
 }
 
 input[type=submit] {
@@ -108,39 +108,35 @@ input[type=checkbox] {
 /* Desktop Styling */
 
 @media only screen and (min-width: 992px) {
-  input {
-  width: 125%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
-}
 
-input:focus {
-  width: 100%;
-}
   input[type=submit]:focus {
-    width: 50%%;
+    width: 100%;
+  }
+  input[type=text] {
+    width: 140%;
   }
    input[type=text]:focus {
-    width: 50%%;
+    width: 150%;
   }
   input[type=submit] {
-    width: 40%;
+    width: 70%;
   }
   #exit_poll{
 	padding: 10px;
 	text-align: center;
   }
   input[type=reset] {
-    width: 40%;
+    width: 50%;
+  }
+  input[type=reset]:focus {
+    width: 100%;
   }
   input[type=checkbox] {
     width: 20px;
     height: 20px;
   }
-  input[type=submit]:focus {
-    width: 40%;
-  }
+  
+  
   
 
 }
