@@ -105,7 +105,7 @@ input[type=checkbox] {
 
 @media only screen and (min-width: 992px) {
   input {
-    width: 95%;
+    width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
