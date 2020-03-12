@@ -2,7 +2,7 @@ form {
   font-family: Lucida Console;
   text-align: center;
   /*text-transform: uppercase; */
-  width: 200px;
+  width: 20em;
   margin: 0 auto;
   color: white;
 }
@@ -23,7 +23,16 @@ h2 {
   margin-bottom: 20px;
 }
 
+#exit_poll {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
 
+img {
+  width: 5em;
+}
 
 h4 {
   color: #669900;
@@ -67,7 +76,7 @@ input {
 }
 
 input[type=text]:focus {
-  width: 130%;
+  width: 100%;
 }
 
 input[type=submit] {
@@ -84,14 +93,12 @@ input[type=checkbox] {
 /* Tablet Styling */
 
 @media only screen and (min-width: 480px) {
-
   input {
-  width: 90%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
-  
-}
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
   input:focus {
     width: 100%;
   }
@@ -108,22 +115,21 @@ input[type=checkbox] {
 /* Desktop Styling */
 
 @media only screen and (min-width: 992px) {
-
   input[type=submit]:focus {
     width: 100%;
   }
   input[type=text] {
-    width: 140%;
+    width: 100%;
   }
-   input[type=text]:focus {
-    width: 150%;
+  input[type=text]:focus {
+    width: 110%;
   }
   input[type=submit] {
     width: 70%;
   }
-  #exit_poll{
-	padding: 10px;
-	text-align: center;
+  #exit_poll {
+    padding: 10px;
+    text-align: center;
   }
   input[type=reset] {
     width: 50%;
@@ -135,8 +141,8 @@ input[type=checkbox] {
     width: 20px;
     height: 20px;
   }
-  
-  
-  
-
+  form {
+    text-align: center;
+    width: 20em;
+  }
 }
