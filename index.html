@@ -1,45 +1,45 @@
 <!DOCTYPE html>
 <html lang="en" class="nojs">
-   <head>
-      <title>
-      Tri Solutions</title>
-      <meta charset="UTF-8" />
-      <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
-      <link rel="stylesheet" media="screen" href="css/reset.css" />
-      <link rel="stylesheet" media="screen" href="css/screen.css" />
-      <script async src="js/script.js"></script>
-   </head>
-   <body>
-      <h1> Tri Solutions </h1>
-      <h3> Welcome to Tri Solutions, we specialize in smart home technology </h3>
-      <h4> Please complete the form below for a quote:  </h4>
-     
-      <form method="get" name="myForm" autocomplete="on" action="#" onsubmit="return validateForm()">
-         <p><label for="firstname"> First Name </label>
-            <input type="text" id="firstname" placeholder="Enter your first name">
-         <p>
-            <label for="lastname"> Last Name </label>
-            <input type="text" id="lastname"  placeholder="Enter your last name">
-            <label for="email"> Email </label>
-            <input type="text" id="email"  placeholder="Enter your Email">
-            <label for="phone"> Phone Number</label>
-            <input type="tel" id="phone" placeholder="(555) 555-1234"> 
-         <div id="list">
-            <h4>Would you like to sign up to receive our newsletter?</h4>
-            <label for="elist"> Sign me Up!</label>
-            <input type="checkbox" id="elist">
-         </div>
-         <div id="exit_poll">
-         <label> Do you live in Chicago, New York, or Los Angeles? </label>
-		 <label> Yes <input type="radio" id="yes" name="poll" value="yes"></label>
-		 <label>No <input type="radio" id="no" name="poll" value="no"></label>
-		 <label>Other<input type="radio" id="other" name="poll" value="other"></label>
-		 </div>
-         <div id="buttons">
-            <input type="submit" onclick="submit1()">
-            <input type="reset" value="Reset">
-         </div>
-		 
-      </form>
-   </body>
+  <head>
+    <title>
+      Tri Solutions
+    </title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
+    <link rel="stylesheet" media="screen" href="css/reset.css" />
+    <link rel="stylesheet" media="screen" href="css/screen.css" />
+    <script async src="js/script.js"></script>
+  </head>
+  <body>
+    <h1> Tri Solutions </h1>
+    <h3>  Welcome to Tri Solutions, we specialize in smart home technology  </h3>
+    <h4><img src="media/triangle.png" alt="Green Triangle"> Please complete the form below for a quote:  <img src="media/triangle.png" alt="Green Triangle"></h4>
+    <p>
+    <form method="get" name="myForm" autocomplete="on" action="#" onsubmit="return validateForm()">
+      <label for="firstname"> First Name </label>
+      <input type="text" id="firstname" placeholder="Enter your first name">
+      <label for="lastname"> Last Name </label>
+      <input type="text" id="lastname"  placeholder="Enter your last name">
+      <label for="email"> Email </label>
+      <input type="text" id="email"  placeholder="Enter your Email">
+      <label for="phone"> Phone Number</label>
+      <input type="tel" id="phone" placeholder="(555) 555-1234"> 
+      <div id="list">
+        <h4>Would you like to sign up to receive our newsletter?</h4>
+        <label for="elist"> Sign me Up!</label>
+        <input type="checkbox" id="elist">
+      </div>
+      <label> Do you live in Chicago, New York, or Los Angeles? </label>
+      <div id="exit_poll">
+        <label> Yes <input type="radio" id="yes" name="poll" value="yes"></label>
+        <label>No <input type="radio" id="no" name="poll" value="no"></label>
+        <label>Other<input type="radio" id="other" name="poll" value="other"></label>
+      </div>
+      <div id="buttons">
+        <input type="submit" onclick="submit1()">
+        <input type="reset" value="Reset">
+      </div>
+    </form>
+    </p>
+  </body>
 </html>
